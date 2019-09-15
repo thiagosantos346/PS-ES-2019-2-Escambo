@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="374px" preserveAspectRatio="none" style="width:361px;height:374px;" version="1.1" viewBox="0 0 361 374" width="361px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qh06ecrbkbl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[bea9183264cba62b8c9a5e1224027178]
+cluster Aplicação--><rect fill="#FFFFFF" filter="url(#f1qh06ecrbkbl)" height="230" style="stroke: #000000; stroke-width: 1.5;" width="216" x="134" y="24.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="204.5" y="39.4951">Aplicação</text><ellipse cx="242.2487" cy="74.5236" fill="#FEFECE" filter="url(#f1qh06ecrbkbl)" rx="27.7487" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="224.7487" y="79.1721">Inicio</text><ellipse cx="242.0624" cy="142.5125" fill="#FEFECE" filter="url(#f1qh06ecrbkbl)" rx="80.5624" ry="18.5125" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="132" x="176.0624" y="147.1609">Modulo de Contato</text><ellipse cx="241.8872" cy="217.2774" fill="#FEFECE" filter="url(#f1qh06ecrbkbl)" rx="91.8872" ry="20.7774" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="158" x="162.8872" y="221.9259">Canal de Comunicação</text><!--MD5=[a10387ad8e858299a22bf8f94b5aa682]
+entity Consumidor--><ellipse cx="48" cy="55" fill="#FEFECE" filter="url(#f1qh06ecrbkbl)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M48,63 L48,90 M35,71 L61,71 M48,90 L35,105 M48,90 L61,105 " fill="none" filter="url(#f1qh06ecrbkbl)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="6" y="124.9951">Consumidor</text><!--MD5=[eb4e1fff4b11d66712e4b08b84d12274]
+entity Fornecedor--><ellipse cx="48" cy="291" fill="#FEFECE" filter="url(#f1qh06ecrbkbl)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M48,299 L48,326 M35,307 L61,307 M48,326 L35,341 M48,326 L61,341 " fill="none" filter="url(#f1qh06ecrbkbl)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="8" y="360.9951">Fornecedor</text><!--MD5=[a111db04efb593016a1ed2acace679c4]
+entity Servidor--><ellipse cx="48" cy="173" fill="#FEFECE" filter="url(#f1qh06ecrbkbl)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M48,181 L48,208 M35,189 L61,189 M48,208 L35,223 M48,208 L61,223 " fill="none" filter="url(#f1qh06ecrbkbl)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="20" y="242.9951">Servidor</text><!--MD5=[b77af507fdf96fe5c9f4c001d1c187af]
+link Consumidor to Inicio--><path d="M90.1888,83.926 C127.873,81.57 182.503,78.156 214.626,76.148 " fill="none" id="Consumidor-Inicio" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[4d1cfc7f9a2a5685fc1250d01723256b]
+link Consumidor to Modulo de Contato--><path d="M90.1888,98.513 C118.324,106.72 155.905,117.681 186.513,126.608 " fill="none" id="Consumidor-&gt;Modulo de Contato" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="191.363,128.023,183.843,121.663,186.563,126.623,181.603,129.343,191.363,128.023" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[27218a8e9eb0aa94d4551a5061185671]
+reverse link Servidor to Modulo de Contato--><path d="M81.0484,194.074 C94.8739,189.581 111.23,184.274 126,179.5 C148.451,172.244 173.379,164.219 194.27,157.504 " fill="none" id="Servidor&lt;-Modulo de Contato" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="76.077,195.689,85.8727,196.7106,80.832,194.1432,83.3994,189.1025,76.077,195.689" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[43608ac9f52c3003a506b3b11606afb9]
+link Servidor to Canal de Comunicação--><path d="M76.1017,206.335 C95.1926,207.628 121.967,209.44 148.397,211.23 " fill="none" id="Servidor-&gt;Canal de Comunicação" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="153.676,211.587,144.9662,206.9892,148.6874,211.2499,144.4268,214.971,153.676,211.587" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cf7509fa43e18359517741fb613e4704]
+reverse link Fornecedor to Canal de Comunicação--><path d="M92.8396,298.5252 C127.001,279.8433 173.816,254.242 205.615,236.851 " fill="none" id="Fornecedor&lt;-Canal de Comunicação" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="88.3174,300.9983,98.133,300.1896,92.7043,298.5993,94.2946,293.1706,88.3174,300.9983" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[40ce854ba2657d22dc982d336580db72]
+reverse link Consumidor to Canal de Comunicação--><path d="M79.2357,132.26 C92.0153,148.725 108.098,166.241 126,178.5 C141.22,188.923 159.471,196.777 176.902,202.6 " fill="none" id="Consumidor&lt;-Canal de Comunicação" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="76.0587,128.101,78.3441,137.681,79.0942,132.0741,84.7011,132.8243,76.0587,128.101" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[acfb382f871a9cdcf3b5be4cb0e2f75b]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor Consumidor
+actor Fornecedor
+actor Servidor
+
+rectangle Aplicação {
+  Consumidor - - (Inicio)
+  Consumidor - -> (Modulo de Contato)
+  Servidor <- - (Modulo de Contato)
+  Servidor - -> (Canal de Comunicação)
+  Fornecedor <- - (Canal de Comunicação)
+  Consumidor <- - (Canal de Comunicação)
+}
+@enduml
+
+PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

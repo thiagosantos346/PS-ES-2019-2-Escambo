@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="287px" preserveAspectRatio="none" style="width:504px;height:287px;" version="1.1" viewBox="0 0 504 287" width="504px" zoomAndPan="magnify"><defs><filter height="300%" id="f1j128opbfohgb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[bea9183264cba62b8c9a5e1224027178]
+cluster Aplicação--><rect fill="#FFFFFF" filter="url(#f1j128opbfohgb)" height="151" style="stroke: #000000; stroke-width: 1.5;" width="359" x="134" y="24.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="276" y="39.4951">Aplicação</text><ellipse cx="225.7487" cy="74.5236" fill="#FEFECE" filter="url(#f1j128opbfohgb)" rx="27.7487" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="208.2487" y="79.1721">Inicio</text><ellipse cx="225.5253" cy="141.5051" fill="#FEFECE" filter="url(#f1j128opbfohgb)" rx="75.5253" ry="17.5051" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="120" x="165.5253" y="146.1535">Modulo de Busca</text><ellipse cx="419.1543" cy="143.5236" fill="#FEFECE" filter="url(#f1j128opbfohgb)" rx="58.1543" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="78" x="380.1543" y="148.1721">Resultados</text><!--MD5=[a10387ad8e858299a22bf8f94b5aa682]
+entity Consumidor--><ellipse cx="48" cy="77" fill="#FEFECE" filter="url(#f1j128opbfohgb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M48,85 L48,112 M35,93 L61,93 M48,112 L35,127 M48,112 L61,127 " fill="none" filter="url(#f1j128opbfohgb)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="6" y="146.9951">Consumidor</text><!--MD5=[a111db04efb593016a1ed2acace679c4]
+entity Servidor--><ellipse cx="225.5" cy="204" fill="#FEFECE" filter="url(#f1j128opbfohgb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M225.5,212 L225.5,239 M212.5,220 L238.5,220 M225.5,239 L212.5,254 M225.5,239 L238.5,254 " fill="none" filter="url(#f1j128opbfohgb)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="197.5" y="273.9951">Servidor</text><!--MD5=[b77af507fdf96fe5c9f4c001d1c187af]
+link Consumidor to Inicio--><path d="M90.147,100.529 C123.986,93.973 170.85,84.894 199.345,79.373 " fill="none" id="Consumidor-Inicio" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[f2a5fbc3eaa285d60da017c0d5acfbba]
+link Consumidor to Modulo de Busca--><path d="M90.147,116.237 C111.334,120.221 137.628,125.165 161.321,129.62 " fill="none" id="Consumidor-&gt;Modulo de Busca" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="166.335,130.563,158.2294,124.9684,161.4212,129.6388,156.7507,132.8305,166.335,130.563" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ce2fc185aa23f1c13ea3b52260611185]
+reverse link Modulo de Busca to Resultados--><path d="M306.23,142.333 C324.549,142.524 343.674,142.724 360.817,142.903 " fill="none" id="Modulo de Busca&lt;-Resultados" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="301.087,142.279,310.0454,146.3714,306.0867,142.3304,310.1277,138.3718,301.087,142.279" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cbf6d49d67d2e588fdb052b6666948d9]
+link Servidor to Resultados--><path d="M253.531,222.5138 C288.559,205.6858 349.519,176.399 386.573,158.598 " fill="none" id="Servidor-&gt;Resultados" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="391.414,156.272,381.5694,156.562,386.9067,158.4364,385.0324,163.7737,391.414,156.272" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0db0db6473cffc4d5cb16c65bfb9e491]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor Consumidor
+actor Servidor
+
+rectangle Aplicação {
+  Consumidor - - (Inicio)
+  Consumidor - -> (Modulo de Busca)
+  (Modulo de Busca) <- - (Resultados)
+  Servidor - -> (Resultados)
+}
+@enduml
+
+PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

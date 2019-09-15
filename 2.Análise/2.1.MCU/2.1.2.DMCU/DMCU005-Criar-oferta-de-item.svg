@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="308px" preserveAspectRatio="none" style="width:614px;height:308px;" version="1.1" viewBox="0 0 614 308" width="614px" zoomAndPan="magnify"><defs><filter height="300%" id="fmo0rorrn6g92" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[bea9183264cba62b8c9a5e1224027178]
+cluster Aplicação--><rect fill="#FFFFFF" filter="url(#fmo0rorrn6g92)" height="273" style="stroke: #000000; stroke-width: 1.5;" width="372" x="130" y="24"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="75" x="278.5" y="38.9951">Aplicação</text><ellipse cx="196.7487" cy="74.0236" fill="#FEFECE" filter="url(#fmo0rorrn6g92)" rx="27.7487" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="35" x="179.2487" y="78.6721">Inicio</text><ellipse cx="196.4558" cy="138.0236" fill="#FEFECE" filter="url(#fmo0rorrn6g92)" rx="28.4558" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="178.4558" y="142.6721">Pede</text><ellipse cx="396.6728" cy="196.8346" fill="#FEFECE" filter="url(#fmo0rorrn6g92)" rx="89.6728" ry="20.3346" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="153" x="320.1728" y="201.483">Formulario Criar Oferta</text><ellipse cx="196.4558" cy="266.0236" fill="#FEFECE" filter="url(#fmo0rorrn6g92)" rx="28.4558" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="178.4558" y="270.6721">Envia</text><ellipse cx="196.3762" cy="202.0236" fill="#FEFECE" filter="url(#fmo0rorrn6g92)" rx="50.3762" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="162.8762" y="206.6721">Preenche</text><!--MD5=[eb4e1fff4b11d66712e4b08b84d12274]
+entity Fornecedor--><ellipse cx="46" cy="106.5" fill="#FEFECE" filter="url(#fmo0rorrn6g92)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M46,114.5 L46,141.5 M33,122.5 L59,122.5 M46,141.5 L33,156.5 M46,141.5 L59,156.5 " fill="none" filter="url(#fmo0rorrn6g92)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="80" x="6" y="176.4951">Fornecedor</text><!--MD5=[a111db04efb593016a1ed2acace679c4]
+entity Servidor--><ellipse cx="574" cy="202.5" fill="#FEFECE" filter="url(#fmo0rorrn6g92)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M574,210.5 L574,237.5 M561,218.5 L587,218.5 M574,237.5 L561,252.5 M574,237.5 L587,252.5 " fill="none" filter="url(#fmo0rorrn6g92)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="546" y="272.4951">Servidor</text><!--MD5=[cb9b35b1d0cea9b02ebf81c2562f2d8a]
+reverse link Fornecedor to Inicio--><path d="M90.7454,119.147 C118.41,107.224 152.913,92.354 174.583,83.015 " fill="none" id="Fornecedor&lt;-Inicio" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="86.0166,121.185,95.8648,121.2959,90.6082,119.2059,92.6983,113.9493,86.0166,121.185" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8bd85a181545ee270e83ab220bdf9c1f]
+link Fornecedor to Pede--><path d="M86.0166,138 C109.984,138 140.328,138 162.989,138 " fill="none" id="Fornecedor-&gt;Pede" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="167.992,138,158.992,134,162.992,138,158.992,142,167.992,138" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fd20e0040ab435f6b898309d384757a2]
+link Pede to Formulario Criar Oferta--><path d="M221.383,145.117 C249.635,153.535 297.683,167.853 336.158,179.317 " fill="none" id="Pede-&gt;Formulario Criar Oferta" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="341.28,180.844,333.7963,174.4413,336.488,179.4167,331.5126,182.1084,341.28,180.844" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7a524909f8d8cbfa092c7a7b14a0d16e]
+link Servidor to Envia--><path d="M545.795,236.3184 C478.166,242.0817 302.658,257.0385 229.868,263.2416 " fill="none" id="Servidor-&gt;Envia" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="224.808,263.6729,234.115,266.8948,229.79,263.2486,233.4361,258.9236,224.808,263.6729" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[48348a6626b7220f372655c4af6c28ce]
+link Envia to Formulario Criar Oferta--><path d="M225.031,265.5575 C260.871,257.6228 323.47,236.0385 362.018,218.511 " fill="none" id="Envia-&gt;Formulario Criar Oferta" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="366.597,216.3948,356.7492,216.5387,362.0581,218.492,360.1048,223.8009,366.597,216.3948" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[48348a6626b7220f372655c4af6c28ce]
+link Envia to Formulario Criar Oferta--><path d="M211.74,253.6318 C234.064,240.8809 278.866,223.3382 318.642,210.589 " fill="none" id="Envia-&gt;Formulario Criar Oferta-1" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="323.466,209.058,313.6779,207.9659,318.6999,210.5695,316.0963,215.5916,323.466,209.058" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[68e7d05b1307644a55b3db1f66ec1740]
+link Formulario Criar Oferta to Fornecedor--><path d="M383.793,176.668 C362.115,141.334 311.952,69.722 247,42 C195.904,20.191 171.933,17.645 122,42 C100.2625,52.602 82.9801,72.888 70.5099,92.09 " fill="none" id="Formulario Criar Oferta-&gt;Fornecedor" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="67.7633,96.423,75.9603,90.9633,70.4403,92.2,69.2036,86.68,67.7633,96.423" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[61a1a377e7144ed61f622b48164b6b6c]
+link Fornecedor to Preenche--><path d="M86.0166,154.815 C109.924,165.119 140.176,178.157 162.819,187.915 " fill="none" id="Fornecedor-&gt;Preenche" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="167.53,189.946,160.8477,182.7108,162.9382,187.9673,157.6818,190.0577,167.53,189.946" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[582852d775b16061d275ea46dc742b5f]
+link Preenche to Formulario Criar Oferta--><path d="M246.953,200.751 C263.705,200.328 283.007,199.841 302.036,199.36 " fill="none" id="Preenche-&gt;Formulario Criar Oferta" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="307.393,199.225,298.2942,195.4551,302.3946,199.3521,298.4976,203.4526,307.393,199.225" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[91943322b6a0153b9d562354544c651c]
+link Fornecedor to Envia--><path d="M72.6944,179.731 C85.6846,198.219 102.7722,219.1046 122,234 C135.246,244.2611 152.288,251.9482 166.627,257.2129 " fill="none" id="Fornecedor-&gt;Envia" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="171.377,258.9057,164.2422,252.1164,166.6672,257.2271,161.5565,259.6521,171.377,258.9057" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1ac92bfeed8733e830db02ea4947b912]
+link Formulario Criar Oferta to Servidor--><path d="M462.85,210.777 C489.375,216.3697 518.827,222.5789 540.598,227.1688 " fill="none" id="Formulario Criar Oferta-&gt;Servidor" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="545.68,228.2403,537.6987,222.4698,540.7875,227.2089,536.0484,230.2977,545.68,228.2403" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dc93c15d96e95dcd66b69ba42a9ada68]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor Fornecedor
+actor Servidor
+
+rectangle Aplicação {
+  Fornecedor <- - (Inicio)
+  Fornecedor - -> (Pede)
+  (Pede) - -> (Formulario Criar Oferta)
+  Servidor - -> (Envia)
+  (Envia) - -> (Formulario Criar Oferta)
+  (Formulario Criar Oferta) - -> Fornecedor
+  Fornecedor - -> (Preenche)
+  (Preenche) - -> (Formulario Criar Oferta)
+  Fornecedor - -> (Envia)
+  (Envia) - -> (Formulario Criar Oferta)
+  (Formulario Criar Oferta) - -> Servidor
+  
+}
+@enduml
+
+PlantUML version 1.2019.10(Fri Sep 13 20:53:03 UTC 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.7.0_25-b15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
