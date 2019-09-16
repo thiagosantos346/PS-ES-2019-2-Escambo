@@ -1,4 +1,4 @@
-# MCU04 - Criar oferta de item.
+# MCU05 - Criar oferta de item.
 
 ## Ator Primário:
 - [ Fornecedor ] : Com papel de fornecer informações sobre bem/serviços que deseja que seja persistidos.
