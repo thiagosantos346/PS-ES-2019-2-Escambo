@@ -1,30 +1,9 @@
-
-# MCU-1 - Cria Anuncio
-
- - Eu como **fornecedor** desejo anunciar um item ou Serviço
- - Eu espero que após a criação o sistema publique o meu item/serviço.
-
-```
-@startuml
-
-:Fornecedor: as vender << Humano >>
-:Sistema: as Escambo << Aplicação >>
-
-rectangle Anunciar-Item {
-  (publicar) << executar >>
-  (Anuncio)  << Criar >>
-  
-  
-  vender --> (Anuncio)
-  Escambo --> (publicar)
-  publicar <-- (Anuncio)
-  
-}
-
-@enduml
-```
-
-![Diagrama](https://github.com/thiagosantos346/PS-ES-2019-2--Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/caso-criar-anuncio.png)
-
-
-
+# Listagem de MCU:
+ - [MCU001](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1MCU/MCU001-Busca-de-Item-no-feed.md)
+ - [MCU002](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1MCU/MCU002-Entrar-em-contato-com-fornecedor.md)
+ - [MCU003](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1MCU/MCU003-Autenticação-na-aplicação-cliente.md)
+ - [MCU004](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1MCU/MCU004-Sinalizar-interesse-em-item-ofertado.md)
+ - [MCU005](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1MCU/MCU005-Criar-oferta-de-item.md)
+ - [MCU006](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1MCU/CU006-Avaliar-transação-Fornecedor-Consumidor.md)
+ - [MCU007](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1MCU/MCU007-Avaliçar-transação-Fornecedor-Cliente.md)
+ 
