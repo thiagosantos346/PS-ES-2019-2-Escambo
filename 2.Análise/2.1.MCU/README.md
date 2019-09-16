@@ -11,9 +11,9 @@
 - ![MCU001](https://raw.githubusercontent.com/thiagosantos346/PS-ES-2019-2-Escambo/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/DMCU001-Busca-de-Item-no-feed.png)
 
 - ![MCU002](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/DMCU002-Entrar-em-contato-com-fornecedor.png)
- - [MCU003](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/MCU003-Autenticação-na-aplicação.png)
- - [MCU004](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.MCU/MCU004-Sinalizar-interesse-em-item-ofertado.png)
- - [MCU005](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.MCU/MCU005-Criar-oferta-de-item.png)
- - [MCU006](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.MCU/MCU006-Avaliar-transação-Fornecedor-Consumidor.png)
- - [MCU007](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.DMCU/2.1.2.DMCU/MCU007-Avaliar-transação-Consumidor-Fornecedor.png)
+ - [MCU003](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/DMCU003-Autentica%C3%A7%C3%A3o-na-aplica%C3%A7%C3%A3o.png)
+ - [MCU004](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/DMCU004-Sinalizar-interesse-em-item-ofertado.png)
+ - [MCU005](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/DMCU005-Criar-oferta-de-item.png)
+ - [MCU006](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/DMCU006-Avali%C3%A7ar-transa%C3%A7%C3%A3o-Fornecedor-Consumidor.png)
+ - [MCU007](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.2.DMCU/DMCU007-Avali%C3%A7ar-transa%C3%A7%C3%A3o-Consumidor-Fornecedor.png)
  
