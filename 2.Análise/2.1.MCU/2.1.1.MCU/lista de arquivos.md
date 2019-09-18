@@ -1,0 +1,17 @@
+touch MCU-F-001-Fornecedor-Avaliar-Transação-de-Venda.md
+touch MCU-F-002-Fornecedor-Concluir-Transação-de-Venda.md
+touch MCU-F-003-Fornecedor-Manter-Catálogo-de-Ofertas.md
+touch MCU-F-004-Fornecedor-Criar-Ofertas.md
+touch MCU-F-005-Fornecedor-Responder-lance-em-uma-oferta;.md
+touch MCU-F-006-Fornecedor-Interagir-no-Bate-papo-da-Transação-.md
+touch MCU-F-007-Fornecedor-Interagir-no-Bate-papo-do-Perfil.md
+touch MCU-F-008-Fornecedor-Responder-Lance-em-Oferta.md
+touch MCU-F-009-Fornecedor-Seguir-um-outro-perfil.md
+touch MCU-F-010-Fornecedor-Reportar-um-outro-perfil.md
+touch MCU-C-011-Consumidor-Ver-oferta-de-compra.md
+touch MCU-C-012-Consumidor-Concluir-Transação-de-Compra.md
+touch MCU-C-013-Consumidor-Interagir-no-Bate-papo-da-Transação.md
+touch MCU-C-014-Consumidor-Interagir-no-Bate-papo-do-Perfil.md
+touch MCU-C-015-Consumidor-Dar-lance-em-ofertas;.md
+touch MCU-C-016-Consumidor-Serguir-um-outro-perfil.md
+touch MCU-C-017-Consumidor-Reportar-um-outro-perfil.md

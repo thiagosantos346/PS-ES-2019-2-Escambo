@@ -1,6 +1,6 @@
 # MCU006 - Avaliçar transação Fornecedor Cliente; 
 
-# Ator Primário:
+##Ator Primário:
 -  [ Fornecedor ] : Avaliar transação com [ Consumidor ] ;
 
 ## Atores Secundários:
@@ -19,6 +19,6 @@
   5) [ Aplicação Servidor ] : Publica a nova reputação do [ Consumidor ];
 
 
-## Pós-condições:
+## ##  Pós-condições:
   1) Que o [ Consumidor ] tenha sua reputação alterada;
 

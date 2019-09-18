@@ -15,5 +15,5 @@
   4) [ Usuário ]: Preenche o campo chave de acesso;
   5) [ Usuário ]: Envia formulário de autenticação para a [ Aplicação servidor ] ;
 
-## Pós-condições:
+## ##  Pós-condições:
   1) Acesso a privilegios de acordo com o perfil do [ Usuário ];

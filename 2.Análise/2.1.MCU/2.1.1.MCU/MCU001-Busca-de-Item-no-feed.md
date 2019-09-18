@@ -17,6 +17,6 @@
     5) [ Consumidor ] : Solicita detalhes de um item para [ Aplicação Servidor ];
     6) [  Aplicação Servidor ] : Envia os detalhes do item para o [ Consumidor ];
     
-## Pós-condições:
+## ##  Pós-condições:
   1) Visualisar detalhes sobre a oferta;
 

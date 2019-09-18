@@ -20,6 +20,6 @@
   4) [ Aplicação Servidor ] : Envia ao fornecedor o formulario para [ Consumidor ];
   
 
-## Pós-condições:
+## ##  Pós-condições:
   1) Criação de um canal de comunicação;
 

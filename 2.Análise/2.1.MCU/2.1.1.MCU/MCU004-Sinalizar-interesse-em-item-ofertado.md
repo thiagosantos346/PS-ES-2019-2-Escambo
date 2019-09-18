@@ -18,7 +18,7 @@
   3) [ Aplicação Servidor ] : Criar um canal de comunicão entre [ Consumidor ] e [ Forncedor ] ;
   
   
-## Pós-condições:
+## ##  Pós-condições:
   1) Notificação do [ Fornecedor ] pela [ Aplicação Servidor ];
   2) Criação de canal de comunicação entre [ Fornecedor ] e [ Consumidor ];
 

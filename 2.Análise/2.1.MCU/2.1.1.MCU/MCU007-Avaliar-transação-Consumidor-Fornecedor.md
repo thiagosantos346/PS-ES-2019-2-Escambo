@@ -19,5 +19,5 @@
   5) [ Aplicação Servidor ] : Publica a nova reputação do [ Fornecedor ];
 
 
-## Pós-condições:
+## ##  Pós-condições:
   1) Que o [ Fornecedor ] tenha sua reputação alterada;
