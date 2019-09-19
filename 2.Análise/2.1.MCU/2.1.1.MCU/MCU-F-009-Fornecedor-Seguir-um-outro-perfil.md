@@ -1,7 +1,11 @@
-# Sumário: 
-##Ator Primário: 
-##Atores Secundários: 
-##Precondições:
+# Sumário: MCU-F-009 - Fornecedor Seguir um outro perfil.
+## Ator Primário: 
+    - Fornecedor
+## Atores Secundários: 
+    - Consumidor;
+    - Sistema;
+## Precondições:
+    - 
 ## Fluxo Principal
 1.  
 2. 

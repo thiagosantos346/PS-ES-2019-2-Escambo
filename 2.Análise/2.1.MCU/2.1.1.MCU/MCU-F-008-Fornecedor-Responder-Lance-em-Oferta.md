@@ -1,7 +1,11 @@
-# Sumário: 
-##Ator Primário: 
-##Atores Secundários: 
-##Precondições:
+# Sumário: MCU-F-008 - Fornecedor Responder Lance em Oferta
+## Ator Primário: 
+    - Fornecedor
+## Atores Secundários: 
+    - Consumidor;
+    - Sistema;
+## Precondições:
+    - MCU-C-015;
 ## Fluxo Principal
 1.  
 2. 

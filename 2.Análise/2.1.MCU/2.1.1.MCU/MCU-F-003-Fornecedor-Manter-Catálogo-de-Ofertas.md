@@ -1,7 +1,10 @@
 # Sumário: 
-##Ator Primário: 
-##Atores Secundários: 
-##Precondições:
+## Ator Primário: 
+    - Fornecedor
+## Atores Secundários:
+    - Sistema;
+## Precondições:
+    
 ## Fluxo Principal
 1.  
 2. 
