@@ -5,7 +5,7 @@
     - Consumidor;
     - Sistema;
 ## Precondições:
-    - MCU-F-005;
+    - [MCU-F-005;](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1.MCU/MCU-F-005-Fornecedor-Responder-lance-em-uma-oferta.md)
 ## Fluxo Principal
 1.  Após o fornecedor entregar o item;
 2.  No Transação de venda, selecione concluir;
