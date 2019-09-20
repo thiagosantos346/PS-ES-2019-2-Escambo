@@ -2,10 +2,10 @@
 ## Ator Primário: 
     - Consumidor
 ## Atores Secundários: 
-    - Forncedor;
+    - Fornecedor;
     - Sistema;
 ## Precondições:
-    - MCU015;
+    - MCU-F-015;
 ## Fluxo Principal
 1. Apostar ter dado Lance;
 2. Selecionar no sistema entrar em contato com vendedor;
@@ -17,8 +17,10 @@
  -  a. 
  -  b. 
 ##  Fluxo de Exceção (3): 
-- . Servidor indisponivel;
+- . Servidor indisponível;
  -  Reenviado assim que mesmo retornar;
 ##  Pós-condições: 
     - Consumidor conseguir entrar em contato com o  Fornecedor;
 ##  Regras de Negócio: , , 
+ 
+

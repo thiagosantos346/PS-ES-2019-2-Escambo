@@ -7,9 +7,9 @@
 ## Precondições:
     - MCU-C-015;
 ## Fluxo Principal
-1.  
-2. 
-3. 
+1. Apostar ter recebido um lance;
+2. Selecionar no sistema entrar em contato com consumidor;
+3. Interagir no bate papo;
 4. 
 5. 
 6. 

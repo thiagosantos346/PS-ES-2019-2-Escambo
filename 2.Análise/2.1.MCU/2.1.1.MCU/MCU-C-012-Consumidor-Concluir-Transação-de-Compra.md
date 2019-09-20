@@ -2,13 +2,13 @@
 ## Ator Primário: 
     - Consumidor
 ## Atores Secundários: 
-    - Forncedor;
+    - Fornecedor;
     - Sistema;
 ## Precondições: 
     -  MCU-F-008;
 ## Fluxo Principal
 1.  Após a entrega do item pelo fornecedor;
-2.  Na lista de lances, escolha o a oferta concluida;
+2.  Na lista de lances, escolha a oferta concluída;
 3.  Selecione finalizar;
 4. 
 5. 
