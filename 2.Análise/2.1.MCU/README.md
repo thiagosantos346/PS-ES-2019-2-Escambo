@@ -21,7 +21,7 @@
 
 - [MCU-C-011 - Consumidor Ver oferta de compra]( https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1.MCU/MCU-C-011-Consumidor-Ver-oferta-de-compra.md )
 
-[MCU-C-012 - Consumidor Concluir Transação de Compra](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1.MCU/MCU-C-012-Consumidor-Concluir-Transa%C3%A7%C3%A3o-de-Compra.md  )
+- [MCU-C-012 - Consumidor Concluir Transação de Compra](https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1.MCU/MCU-C-012-Consumidor-Concluir-Transa%C3%A7%C3%A3o-de-Compra.md  )
 
 - [MCU-C-013 - Consumidor Interagir no Bate-papo da Transação]( https://github.com/thiagosantos346/PS-ES-2019-2-Escambo/blob/master/2.An%C3%A1lise/2.1.MCU/2.1.1.MCU/MCU-C-013-Consumidor-Interagir-no-Bate-papo-da-Transa%C3%A7%C3%A3o.md )
 
