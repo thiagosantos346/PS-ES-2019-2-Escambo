@@ -9,7 +9,7 @@
 [MCU-F-008 - Fornecedor Responder Lance em Oferta](  )
 [MCU-F-009 - Fornecedor Seguir um outro perfil](  )
 [MCU-F-010 - Fornecedor Reportar um outro perfil](  )
-[MCU-C-011 - Consumidor Ver oferta de compra](  )
+[MCU-C-011 - Consumidor Ver item do Catalógo](  )
 [MCU-C-012 - Consumidor Concluir Transação de Compra](  )
 [MCU-C-013 - Consumidor Interagir no Bate-papo da Transação](  )
 [MCU-C-014 - Consumidor Interagir no Bate-papo do Perfil](  )
