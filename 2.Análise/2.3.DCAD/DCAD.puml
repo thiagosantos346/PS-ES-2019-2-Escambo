@@ -1,10 +1,16 @@
-@startuml
+@startuml diabgrama
 
-Fornecedor --|> User
-Cliente --|> User
-Catalógo --* Iten
-Fornecedor "1..*" - "1..1" Catalógo
-(Fornecedor, Catalógo) ... Transação
+Fornecedor --|> Usuario
+Cliente --|> Usuario
+Catalogo --* Iten
+TicketTransação --|> Ticket
+
+Usuario --> Ticket
+
+Fornecedor "1..*" - "1..1" Catalogo
+(Fornecedor, Catalogo) ... Transação
+(Fornecedor, Cliente) ... Chat
+Transação "0..1" - "1..1"  TicketTransação
 
 class Transação{
     Status
@@ -13,7 +19,7 @@ class Transação{
     Cancelar()
 }
 
-class User {
+class Usuario {
   + email
   + senha
   + nome
@@ -23,7 +29,7 @@ class User {
 
 class Fornecedor {
   + pontuação
-  + catalógo<ItensPublicados>
+  + Catalogo<ItensPublicados>
   + Lista<Seguidores>
 }
 
@@ -41,8 +47,25 @@ class Iten {
    + List<Imagen> 
 }
 
-class Catalógo {
-    + List<Iten>
+class Catalogo {
+  + List<Iten>
+}
+
+class Ticket {
+  + Usuario_Solicitante
+  + Usuario_Reportado
+  + Motivo_do_Reporte
+  + Transação
+  + Anuncio
+
+}
+
+class TicketTransação{
+  + Identificador
+  + Status
+  + Mediador
+  + Solução
+  + Tramites
 }
 
 @enduml
