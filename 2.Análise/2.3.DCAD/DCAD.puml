@@ -1,0 +1,49 @@
+@startuml
+
+Fornecedor --|> User
+Cliente --|> User
+Catalógo --* Iten
+Fornecedor "1..*" - "1..1" Catalógo
+(Fornecedor, Catalógo) ... Transação
+
+class Transação{
+    Status
+    Data
+    Conversar()
+    Cancelar()
+}
+
+class User {
+  + email
+  + senha
+  + nome
+  + sobre_nome
+  + data_nascimento
+}
+
+class Fornecedor {
+  + pontuação
+  + catalógo<ItensPublicados>
+  + Lista<Seguidores>
+}
+
+class Cliente {
+  + pontuação
+  + Lista<FornecedoresFavoritos>
+}
+
+class Iten {
+   + titulo
+   + condiçõe_de_uso
+   + troca_ou_venda
+   + valor_venda
+   + descição
+   + List<Imagen> 
+}
+
+class Catalógo {
+    + List<Iten>
+}
+
+@enduml
+

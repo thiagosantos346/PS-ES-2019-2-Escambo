@@ -7,9 +7,9 @@
 ## Precondições:
     - MCU-F-004;
 ## Fluxo Principal
-1.  No catálogo de ofertas, role até o item desejado;
-2.  Selecione;
-3.  Veja os detalhes;
+1.  Ao selecionar um item do catalógo, é exebido detalhes de item especifico.
+2.  
+3.  
 4. 
 5. 
 6. 
