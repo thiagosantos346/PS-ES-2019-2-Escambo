@@ -1,72 +1,118 @@
 @startuml diabgrama
 
-Fornecedor --|> Usuario
-Cliente --|> Usuario
-Catalogo --* Iten
-TicketTransação --|> Ticket
+  class Transação{
+    + status
+    + data_de_inicio
+  }
 
-Usuario --> Ticket
+  class Avaliação {
+    + valor
+    + comentario
+    + data
+  }
 
-Fornecedor "1..*" - "1..1" Catalogo
-(Fornecedor, Catalogo) ... Transação
-(Fornecedor, Cliente) ... Chat
-Transação "0..1" - "1..1"  TicketTransação
+  class Ticket {
+    + Usuario_Solicitante
+    + Usuario_Reportado
+    + Motivo_do_Reporte
+    + Transação
+    + Anuncio
+    + Identificador
+    + status
+    + anexos
+  }
 
-class Transação{
-    Status
-    Data
-    Conversar()
-    Cancelar()
-}
+  class TicketSuporte {
+    + descrição_da_solução
+    + relato_do_problema
+  }
 
-class Usuario {
-  + email
-  + senha
-  + nome
-  + sobre_nome
-  + data_nascimento
-}
+  class TicketDeConduta {
+    + penalidade_para_acusado
+    + referências_de_denuncia
+    + item_de_conduta_violado
+    + foi_indeferida
+  }
+  
+  class Iten {
+    + titulo
+    + condiçõe_de_uso
+    + é_troca_ou_venda
+    + descrição_de_valor
+    + descição
+    + imagens_inlustrativas
+    + videos_inlustrativas
+  }
 
-class Fornecedor {
-  + pontuação
-  + Catalogo<ItensPublicados>
-  + Lista<Seguidores>
-}
+  class Catalogo {
+    + quantidade_de_itens
+  }
 
-class Cliente {
-  + pontuação
-  + Lista<FornecedoresFavoritos>
-}
+  class Usuario {
+    + email
+    + senha
+    + nome
+    + sobre_nome
+    + data_nascimento
+    + raio_de_atuação
+  }
 
-class Iten {
-   + titulo
-   + condiçõe_de_uso
-   + troca_ou_venda
-   + valor_venda
-   + descição
-   + List<Imagen> 
-}
+  class Fornecedor {
+    + pontuação
+  }
 
-class Catalogo {
-  + List<Iten>
-}
+  class Consumidor {
+    + pontuação
+  }
 
-class Ticket {
-  + Usuario_Solicitante
-  + Usuario_Reportado
-  + Motivo_do_Reporte
-  + Transação
-  + Anuncio
+  class Mediador{
 
-}
+  }
 
-class TicketTransação{
-  + Identificador
-  + Status
-  + Mediador
-  + Solução
-  + Tramites
-}
+  class Favoritos{
+
+  }
+
+  Class CanalDeComunicação{
+    + data_criação
+    + esta_ativo
+  }
+
+  class Mensagen {
+    + remetente
+    + destinatario
+    + data_envio
+    + data_recebimento
+    + ja_foi_lida
+    + conteudo
+  }
+
+  Ticket <|-- TicketSuporte
+  Ticket <|-- TicketDeConduta
+
+  Usuario <|-- Fornecedor
+  Usuario <|-- Consumidor
+  Usuario <|-- Mediador
+  
+  Catalogo  --* Iten
+  Favoritos --* Usuario
+  CanalDeComunicação --* Mensagen
+  
+
+  (Fornecedor, Catalogo)   ... Transação
+  (Fornecedor, Consumidor) ... CanalDeComunicação
+  (Usuario, Transação)     ... Avaliação
+
+  Usuario "1..1" - "1..1" Favoritos
+  Usuario "1..*" - "1..1" TicketDeConduta
+
+  Mediador  "*..1" - "1..*"  TicketSuporte
+  Mediador  "*..1" - "1..*"  TicketDeConduta
+
+  Transação "0..1" - "1..1"  TicketSuporte
+  Transação "1..*" - "*..1" Iten
+
+  Fornecedor "1..*" - "1..1" Catalogo
 
 @enduml
 
