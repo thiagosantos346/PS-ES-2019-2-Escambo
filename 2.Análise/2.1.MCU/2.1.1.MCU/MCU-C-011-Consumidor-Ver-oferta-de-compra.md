@@ -2,14 +2,14 @@
 ## Ator Primário: 
     - Consumidor
 ## Atores Secundários: 
-    - Forncedor;
+    - Fornecedor;
     - Sistema;
 ## Precondições:
     - MCU-F-004;
 ## Fluxo Principal
-1.  No catálogo de ofertas, role até o intem desejado;
-2.  Selecione;
-3.  Veja os detalhes;
+1.  Ao selecionar um item do catalógo, é exebido detalhes de item especifico.
+2.  
+3.  
 4. 
 5. 
 6. 
@@ -17,8 +17,8 @@
  -  a. Selecione filtros;
  -  b. Aplique o filtro;    
 ##  Fluxo de Exceção (1): 
-- . Catálogo indisponivel;
+- . Catálogo indisponível;
  -  Sistema exibe "Tentar depois";
 ##  Pós-condições: 
-    - O Consumidor conseguir visualizar um item especifico detalhadamente.
+    - O Consumidor conseguir visualizar um item específico detalhadamente.
 ##  Regras de Negócio: , , 

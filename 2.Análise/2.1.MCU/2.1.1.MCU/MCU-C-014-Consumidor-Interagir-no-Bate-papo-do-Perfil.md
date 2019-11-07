@@ -6,7 +6,7 @@
 ## Precondições:
  - MCU-C-016;
 ## Fluxo Principal
-1.  Abrir listar de seguindo;
+1.  Abrir lista de seguindo;
 2.  Escolher; 
 3.  Interagir;
 ##  Fluxo Alternativo ():

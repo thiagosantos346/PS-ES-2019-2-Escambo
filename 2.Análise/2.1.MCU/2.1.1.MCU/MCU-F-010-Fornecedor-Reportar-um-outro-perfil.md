@@ -7,10 +7,10 @@
 ## Precondições:
     - MCU-C-012;
 ## Fluxo Principal
-1.  
-2. 
-3. 
-4. 
+1.  Escolher o motivo;
+2.  Escrever comentário;
+3.  Enviar;
+4.  Aguardar resposta Mediador;
 5. 
 6. 
 ##  Fluxo Alternativo ( ): ,
@@ -20,4 +20,5 @@
 - .
  -  
 ##  Pós-condições: 
+- Obter uma conciliação entre as partes
 ##  Regras de Negócio: , , 

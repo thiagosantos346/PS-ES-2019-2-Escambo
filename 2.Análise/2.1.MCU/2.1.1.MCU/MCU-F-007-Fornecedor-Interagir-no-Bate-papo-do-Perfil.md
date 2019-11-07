@@ -7,9 +7,9 @@
 ## Precondições:
     - MCU-C-016;
 ## Fluxo Principal
-1.  
-2. 
-3. 
+1.  Abrir lista de seguindo;
+2.  Escolher; 
+3.  Interagir;
 4. 
 5. 
 6. 
@@ -20,4 +20,5 @@
 - .
  -  
 ##  Pós-condições: 
+    - Criação de comunicação entre dois usuários;
 ##  Regras de Negócio: , , 

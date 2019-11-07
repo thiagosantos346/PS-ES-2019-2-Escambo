@@ -1,4 +1,4 @@
-# Sumário: MCU-C-016 - Consumidor Serguir um outro perfil;
+# Sumário: MCU-C-016 - Consumidor Seguir um outro perfil;
 ## Ator Primário:
  - Consumidor; 
 ## Atores Secundários:

@@ -8,8 +8,8 @@
 ## Fluxo Principal
 1.  Busca oferta;
 2.  Abre a oferta;
-3.  Envia lance;
-4.  Aguarda reposta;
+3.  Enviar lance;
+4.  Aguarda resposta;
 ##  Fluxo Alternativo (4): Lance aceito
  -  a. MCU-C-012;
  -  b. MCU-C-018;
@@ -20,4 +20,4 @@
  - MCU-C-017;
 ##  Pós-condições: 
  - Envio de uma oferta em um item qualquer; 
-##  Regras de Negócio:
+##  Regras de Negócio;
