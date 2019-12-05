@@ -132,5 +132,6 @@ STATIC_URL = '/static/'
 # Auth
 LOGIN_URL = 'perfil:login'
 LOGIN_REDIRECT_URL = 'core:home'
+LOGOU_REDIRECT_URL = 'core:home'
 LOGOUT_URL = 'perfil:logout'
 AUTH_USER_MODEL = 'perfil.User'
